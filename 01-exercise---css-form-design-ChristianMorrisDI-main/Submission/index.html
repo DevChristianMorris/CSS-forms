@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <title>Bombay Club</title>
+
+    <link rel="icon" href="favicon.ico?v=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarina&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <p class="logo">Bombay Club</p>
+      <nav><a href="#">Menu</a> <a href="index.html">Order online</a></nav>
+    </header>
+
+    <main>
+      <h1>Order online</h1>
+      <h2>Delivery Details</h2>
+      <form action="https://formspree.io/f/mpzbdebj" method="POST">
+      <div>
+        <label for="name">Name<br></label>
+          <input id="name" name="name" type="text" placeholder="Jane Doe" required/>
+      </div>
+      <br>
+      <div>
+        <label for="phonenumber">Phone Number<br></label>
+        <input id="phonenumber" name="phonenumber" type="text" placeholder="027 123 4567"/>
+      </div>
+      <br>
+      <div>
+        <label for="address">Address<br></label>
+        <input id="address" name="address" type="text" />
+      </div>
+      <br>
+      <h3>Curries</h3>
+      <div>
+        <label for="butterchicken"><strong>Butter Chicken</strong><br><br>Quantity<br></label>
+        <input id="butterchicken" name="butterchicken" type="number" placeholder="0"/>
+      </div>
+      <br>
+      <div>
+        <label for="fishcurry"><strong>Kerala Fish Curry</strong><br><br>Quantity<br></label>
+        <input id="fishcurry" name="fishcurry" type="number" placeholder="0"/>
+      </div>
+      <br>
+      <div>
+        <label for="roganjosh"><strong>Mutton Rogan Josh</strong><br><br>Quantity<br></label>
+        <input id="roganjosh" name="roganjosh" type="number" placeholder="0"/>
+      </div>
+      <br>
+      <div>
+        <button id="button" type="submit">Submit</button>
+      </div>
+      <br>
+      </form>
+    </main>
+  </body>
+</html>
